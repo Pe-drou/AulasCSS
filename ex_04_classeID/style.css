@@ -1,0 +1,8 @@
+/* Adicionando CSS com seletor 'TAG': */
+h1{color: moccasin; font-size: 30px;}
+p{font-weight: bold;}
+/* Adicionando CSS com seletor 'ID' */
+/* ID NÃO PODE SER COMPARTILHADO!!! */
+#par2{font-style: oblique; color:mediumaquamarine;}
+/* Adicionando CSS com seletor 'class' */
+.p-texto{color: crimson; font-family: Verdana, Geneva, Tahoma, sans-serif;}
