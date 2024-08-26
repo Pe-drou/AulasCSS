@@ -1,0 +1,62 @@
+p{
+    color: red;
+    font-weight: bold;
+}
+@keyframes anim{
+    from {background-color: white;}
+    to {background-color: black;}
+}
+@keyframes anim2{
+    0%{}
+    30%{width: 100px;}
+    60%{background-color: purple;}
+    80%{left: 100px; background-color: blueviolet;}
+    100%{height: 200px;}
+}
+@keyframes anim3{
+    from {background-color: skyblue;}
+    to {background-color: cornflowerblue;}
+}
+@keyframes anim4{
+    0%{}
+    30%{width: 10px;}
+    60%{background-color: orange;}
+    80%{left: 100px; background-color: yellow;}
+    100%{height: 5px;}
+
+}
+.anim-div{
+    width: 300px;
+    height: 100px;
+    animation-name: anim;
+    background-color: black;
+    animation-duration: 15s;
+    position: relative;
+}
+.anim-div2{
+    width: 300px;
+    height: 100px;
+    background-color: magenta;
+    animation-name: anim2;
+    animation-duration: 15s;
+    /* position para mover na tela */
+    position:relative;
+}
+.anim-div3{
+    width: 300px;
+    height: 100px;
+    animation-name: anim3;
+    background-color: cornflowerblue;
+    animation-duration: 15s;
+    position: relative;
+    animation-delay: 5s;
+}
+.anim-div4{
+    width: 300px;
+    height: 100px;
+    animation-name: anim4;
+    background-color: white;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 4;
+}
