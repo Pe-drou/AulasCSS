@@ -1,0 +1,30 @@
+.pos{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border: 5px dashed goldenrod;
+    margin: 10px;
+    border-radius: 15%;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    background-color: gold;
+    left: 100px;
+}
+.absolute{
+    position: absolute;
+    background-color: gainsboro;
+    top: 115px;
+    right: 50px;
+}
+.mini-div{
+    width: 25px;
+    height: 25px;
+    border: 3px dashed darkgoldenrod;
+    border-radius: 10%;
+    top: 0;
+    left: 0;
+}
