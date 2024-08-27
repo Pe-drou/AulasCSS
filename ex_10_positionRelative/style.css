@@ -1,0 +1,16 @@
+.pos{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border-bottom: 5px dotted goldenrod;
+    margin: 10px;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    background-color: gold;
+    top: 115px;
+    left: 100px;
+}
