@@ -1,0 +1,11 @@
+.pos{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    border-bottom: 5px dashed green;
+}
+.static{
+    border-right: 200px dotted darkgreen;
+    position: static;
+    top: 20px;
+}
