@@ -1,0 +1,23 @@
+div{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+p{
+    font-size: xx-large;
+    font-weight: bold;
+    color: gold;
+    line-height: 30px;
+}
+.boxmodel {
+    /* caixa */
+    width: 300px;
+    height: 420px;
+    background-color: black;
+    /* espaçamento do conteudo */
+    padding: 60px 90px;
+    /* borda da caixa, linha após o padding */
+    border-top: 30px double white;
+    border-right: 20px double whitesmoke;
+    border-left: 10px dashed;
+    border-radius: 3px;
+}
