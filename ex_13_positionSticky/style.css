@@ -1,0 +1,61 @@
+.pos{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border: 5px dashed goldenrod;
+    margin: 10px;
+    border-radius: 15%;
+}
+.pos2{
+    width: 1px;
+    height: 2000px;
+    background-color: black;
+}
+.pos3{
+    width: 2000px;
+    height: 1px;
+    background-color: black;
+}
+.static{
+    /* posição estática, não é alterada por top, bottom, left ou right */
+    position: static;
+}
+.relative{
+    /* posição dinâmica, é alterado por top, bottom, left ou right */
+    position: relative;
+    background-color: gold;
+    left: 100px;
+}
+.absolute{
+    /* posiciona em qualquer lugar, porém respeitando o espaço onde está */
+    position: absolute;
+    background-color: gainsboro;
+    top: 115px;
+    right: 50px;
+}
+.mini-div{
+    width: 25px;
+    height: 25px;
+    border: 3px dashed darkgoldenrod;
+    border-radius: 10%;
+    top: 0;
+    left: 0;
+}
+.fixed{
+    /* posiciona em qualquer lugar, respeitando o tamanho de exibição da tela */
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    right: 50px;
+    bottom: 50px;
+}
+.sticky{
+    /* flow do html, e quando movimenta o scroll da tela, ele deixa fixado */
+    position: sticky;
+    width: 250px;
+    height: 50px;
+    background-color: lemonchiffon;
+    left: 100px;
+    top: 0px;
+}
