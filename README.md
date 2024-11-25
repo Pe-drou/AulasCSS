@@ -1,3 +1,5 @@
 # PASTA DA AULA DE CSS
+
+Aula realizada para o aprendizagem básico com linguagem CSS para aplicações simples
 Contém:
-- exemplos 1 a 5 da parte de CSS
+- Exercícios de 1 a 14
